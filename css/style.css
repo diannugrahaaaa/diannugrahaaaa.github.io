@@ -1,0 +1,120 @@
+
+  .garis{
+    border-bottom: 2px solid cornsilk;
+    width: 320px;
+  }
+  
+  .navbar-brand{
+    font-family: 'Noto Sans JP', sans-serif; color: whitesmoke !important; 
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navbar-brand:hover{
+    font-family: 'Noto Sans JP', sans-serif; color: rgb(185, 185, 185) !important; 
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav-link{
+    font-family: 'Noto Sans JP', sans-serif; color: whitesmoke !important;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  
+  .nav-link:hover{
+    font-family: 'Noto Sans JP', sans-serif; color: gainsboro !important; 
+    content: '';
+    transition: all 0.2s ease-in-out !important;
+  }
+    
+  
+
+
+  .text-utama{
+    font-family: 'Noto Sans JP', sans-serif; color: whitesmoke !important; 
+    
+  }
+
+  .text-utama{
+    font-family: 'Noto Sans JP', sans-serif; color: black !important; 
+    
+  }
+
+  .bayangan{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.267);
+    border-radius: 3px;
+    
+  }
+
+  .contact-form{ 
+    margin-top:15px;
+  }
+
+.contact-form, .textarea{
+   min-height:220px; 
+   resize:none;
+  }
+
+.form-control{
+   box-shadow:none; 
+   border-color:rgb(172, 172, 172); 
+   height: 50px;
+   width: 500px; 
+   
+  }
+
+
+.form-control:focus{ 
+ 
+  border-color:#006d75;
+  
+  }
+
+
+.main-btn{ 
+  background:#ffffff; 
+  color:rgb(2, 124, 133);
+  }
+
+.main-btn:hover{ 
+  background:rgb(2, 124, 133);
+  color:#fff;
+  }
+
+.form-control-feedback {
+line-height: 60px;
+top: 0px;
+  }
+
+.icon-aing{
+  font-size: 3rem; color: ghostwhite;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.icon-aing:hover{
+  font-size: 3rem; color: rgb(168, 168, 228);
+  transition: all 0.2s ease-in-out !important;
+  
+}
+
+.shadowtext {
+  text-shadow:  0px 3px 3px rgba(0, 0, 0, 0.267);
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.text-pilihanque,
+.btn,
+.card-title,
+.card-subtitle{
+
+font-family: 'Poppins', sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
